@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.tabela {
+  flex: 2;
+  margin-right: 30px;
+}
+
+.tabela table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabela th,
+.tabela td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabela th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.registro {
+  flex: 1;
+}
+
+.registro h2 {
+  margin-top: 0;
+}
+
+.registro .campo {
+  margin-bottom: 10px;
+}
+
+.registro label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.registro input[type="text"] {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.registro input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registro input[type="submit"]:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Alunos</title>
+    <link rel="stylesheet" href="styles.css">
+<body>
+    <header>
+        <h1>Alunos</h1>
+    </header>
+
+    <div class="container">
+        <div class="tabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th>RA</th>
+                        <th>Nome</th>
+                        <th>Data de Nascimento</th>
+                        <th>Telefone</th>
+                        <th>Apagar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="registro">
+            <h2>Registro de Alunos</h2>
+
+            <form id="formAluno">
+                <div class="campo">
+                    <label for="ra">RA:</label>
+                    <input type="text" id="ra" name="ra" required>
+                </div>
+
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label for="dataNascimento">Data de Nascimento:</label>
+                    <input type="text" id="dataNascimento" name="dataNascimento" required maxlength="10"> </div>
+
+                <div class="campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" required>
+                </div>
+
+                <button type="submit">Adicionar</button>
+            </form>
+        </div>
+    </div>
+
+    <p hidden>This is a hidden paragraph.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
