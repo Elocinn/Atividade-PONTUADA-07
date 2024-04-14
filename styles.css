@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -21,12 +21,12 @@ header {
 
 .tabela {
   flex: 2;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .tabela table {
   border-collapse: collapse;
-  width: 100%;
+  width: 90%;
 }
 
 .tabela th,

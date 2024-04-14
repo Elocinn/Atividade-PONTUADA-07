@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela de Alunos</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+</head>
 <body>
     <header>
         <h1>Alunos</h1>
+        <!-- Logo PUC -->
     </header>
 
     <div class="container">
@@ -43,19 +48,18 @@
 
                 <div class="campo">
                     <label for="dataNascimento">Data de Nascimento:</label>
-                    <input type="text" id="dataNascimento" name="dataNascimento" required maxlength="10"> </div>
-
+                    <input type="text" id="dataNascimento" placeholder="DD/MM/YYYY" required>
+                </div>
+                
                 <div class="campo">
                     <label for="telefone">Telefone:</label>
-                    <input type="text" id="telefone" name="telefone" required>
+                    <input type="text" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
                 </div>
 
                 <button type="submit">Adicionar</button>
             </form>
         </div>
     </div>
-
-    <p hidden>This is a hidden paragraph.</p>
 
     <script src="script.js"></script>
 </body>
